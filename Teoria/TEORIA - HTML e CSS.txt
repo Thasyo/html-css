@@ -1,0 +1,169 @@
+CURSO DE HTML E CSS (CURSO EM VIDEO)
+
+github.com/gustavoguanabara 
+
+gustavoguanabara.github.io
+
+-> COMO A INTERNET CHEGA NA MINHA CASA:
+
+	- ARPANET: primeira rede.
+	- NCP: primeiro protocolo criado; serviu para que os computadores de diferentes marcas pudessem se comunicar.
+	- TCP: outro protocolo criado para eliminar o problema do NCP de parar a rede para gerar uma comunicação entres os computadores.
+	- IP: identificação de redes; em conjunto com o TCP criou um conjunto de protocolos chamado de TCP/IP.
+	- INTERNET: foi criada por meio da arpanet para interesses militares; é um conjunto de redes.
+	
+-> A INTERNET ANTIGAMENTE:
+	
+	- ERA FEIONA HAHAHA; TELA PRETA E LETRAS VERDES.	
+	- TIM BERNERS-LEE: criador do " http:// " ; "HTML"; "WWW";  revolucionou a internet e contribui para ela se tornar o que ela é hoje.
+	- MARC ANDREESEN: criou o primeiro navegadopr da web.
+	- WWW: é uma sub-rede dentro da rede 'internet'.
+	- HTTP: ESPECIALIZADO EM PRODUZIR ELEMENTOS EM HYPERTEXT (HTML);
+
+-> COMO FUNCIONA A INTERNET:
+
+	- COMO O COMPUTADOR VÊ OS DADOS: 
+		
+		- REPRESENTAÇÃO DE DADOS: funciona com sinais (0 e 1); são os dígitos binários.
+		
+			- BIT: é um 0 ou um 1;
+			- BYTE: é um conjunto de 8 bites;
+				- exemplo: A = 01000001 (código multibyte);
+			- MB <> Mb
+			     - MB: MegaBytes;
+			     - Mb: MegaBites;
+
+-> O QUE É DOMÍNIO E HSOPEDAGEM:
+	
+	- DOMÍNIO: é  o nome que você dá ao seu site;
+	- HOSPEDAGEM: é o local onde você vai guardar o seu site;
+
+-> URL: localizador de endereço uniforme. Basicamente só serve pra te guiar para um único lugar.
+	EXEMPLO: https://www.github.com/Thasyo
+	
+		- github - DOMÍNIO
+		- .com - TLD
+		- www - SUB-DOMÍNIO DO DOMÍNIO.
+		- /thasyo - CAMINHO
+
+-> CAPÍTULO 03: A DIFERENÇA ENTRE HTML, CSS E JAVASCRIPT
+
+	- HTML e CSS não são linguagens de programação;
+	- HTML: Linguagem de Marcação de Hipertexto;
+	- CSS: Folhas de Estilo em Cascata;
+
+	- HTML: é focada em conteúdo (texto, imagem, listas, tabelas, etc.);
+	- CSS: é focada em design (cores, tamanho, etc.);
+	- JAVASCRIPT:  trabalha as interações em um site (animações, menus, popups, validações); 	
+
+	- CONTEÚDO EM HTML:
+
+		- exemplo:  <h1> exemplo de título </h1>
+
+			   - <h1> => abertura de tag;
+			   - exemplo de título => conteúdo
+			   - <h1/> => fechamento de tag;
+			
+			   <img src="foto.png" alt="exemplo de foto">
+
+			  - <im => abertura da tag;
+			  - src; alt => parâmetros;
+			  - foto.png; exempo de foto => valor;
+
+	- ESTILO EM CSS:
+		
+		- h1 {
+		     font-family: Arial;
+		     font-size: 12pt
+		     color: blue;
+		}	
+
+		h1 => Seletor
+		font-family: Arial => declaração;
+		font-family => propriedade;
+		Arial => valor;
+
+	- ESTRUTURA BÁSICA DE DOCUMENTO HTML:
+
+		<! DOCTYPE html>
+		<html lang="pt-br">
+			<head>
+				<meta charset="UTF-8">
+				<meta name="width=device-width, initial-scale=1.0">
+				<title>Document</title>
+			</head>
+			<body>
+				<h1> Olá Mundo!</h1>
+			</body>
+		</html>
+
+	- ENTENDENDO OS CONCEITOS DE FRONT-END; BACK-END E FULL-STACK:
+
+		- FRONT-END: é o client-side; está muito relacionado com a interface gráfica do projeto. 
+			         Ou seja, é onde se desenvolve a aplicação com a qual o usuário irá interagir diretamente, seja em softwares, sites, aplicativos, etc.
+
+		- BACK-END: é o server-side; 	é a estrutura que possibilita a operação do sistema, enquanto o front-end é responsável pela parte visual, como apresentação, design, linguagens, cores, entre outros.
+			      Mesmo tendo papéis diferentes, essas aplicações estão ligadas intimamente para que os ambientes eletrônicos operem em sincronia.
+
+		- FULL-STACK: é capaz de trabalhar com toda a pilha de desenvolvimento de um projeto. Além de conseguir atuar com o font-end e o back-end, 
+			        esse profissional também pode contribuir em todas as etapas e partes de um sistema, como o servidor e o banco de dados.
+
+- > CAPÍTULO 05: PARÁGRAFOS E QUEBRAS DE LINHAS
+
+	- <P> CONTEUDO </P> : cria paragrafos na pagina.
+	- <br> : pula uma linha na pagina.
+	- &lt; <p> &gt; : esses simbolos permitem colocar caracteres de marcação literalmente na pagina.
+
+	- SIMBOLOS:
+		"IMAGINA UM ESPAÇO EM BRANCO" : &nbsp;
+		® : &reg;
+		© : &copy;
+		™ : &trade;
+		€ : &euro;
+		£ : &pound;
+		¥ : &yen;
+		¢ : &cent;
+		∅ : &empty;
+		∑ : &sum;
+		Δ : &Delta;
+		← : &larr;
+		↑ : &uarr;
+		→ : &rarr;
+		↓ : &darr;
+
+	- EMOJIS:
+		- site: EMOJIPEDIA.COM
+		- para adicionar emojis, é sempre necessario colocar "&#x" e depois colocar o codigo do emoji.
+		- exemplo: &#x1F60E;
+
+-> CAPÍTULO 06: IMAGENS E FAVICONS
+
+	- SITE PARA USAR IMAGENS SEM DIREITOS AUTORAIS
+
+		- PEXEL (o que mais me agradei);
+		- também pode ser usadas imagens pelo google, desde que faça a filtragem necessária;
+	
+	- GIMP: programa usado para manipular imagens.
+
+	- FORMATOS DE IMAGEM PARA WEB:
+
+		- JPEG: criado em 1983,  seu aspecto decisivo é que ele consegue compactar uma imagem;
+		- PNG: criado em 1996, seu aspecto decisivo é que ele consegue transparência e compactação(não tanto quanto o JPEG).
+
+	- IMAGENS:
+
+		- 1200 X 800 => Tamanho razoável para fundo de tela;
+		
+		- 650 x 433 => Tamanho que geralmente usa-se em sites;
+		
+		- 150 X xxx => Geralmente coloca-se em cima no site na lateral;
+
+	- FAVICON:
+
+		- icones favoritos que ficam junto com o titulo da pagina;
+		- SITES DE ICONES FAVORITOS: iconarchive.com; favicon.io;		
+
+
+
+
+
