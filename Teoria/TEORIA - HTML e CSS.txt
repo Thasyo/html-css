@@ -161,9 +161,139 @@ gustavoguanabara.github.io
 	- FAVICON:
 
 		- icones favoritos que ficam junto com o titulo da pagina;
-		- SITES DE ICONES FAVORITOS: iconarchive.com; favicon.io;		
+		- SITES DE ICONES FAVORITOS: iconarchive.com; favicon.io;
+
+-> CAPÍTULO 07: HIERÁRQUIA DE TÍTULOS
+
+	- A hierarquia de títulos consiste em 6 niveis. São elas:
+
+		- H1: Titulo principal.
+		- H2: Subtitulo do H1;
+		- H3:  Subtitulo do H2;
+		- H4:  Subtitulo do H3;
+		- H5:  Subtitulo do H4;
+		- H6:  Subtitulo do H5;
+
+	- Nunca negligencie essa hierarquia, pois é ela que deixa a semãntica do seu site organizada e bem feita.
+
+-> CAPÍTULO 08: FORMATAÇÃO DE TEXTOS
+
+	- Semântica: em HTML, diz respeito ao foco que deve ser posto no significado do que na forma.
+
+	- TAGS OBSOLETAS: são as tags que são ultrapassadas e não são recomendadas para uso.
+
+		exemplo: <center>; <font>; <u>; <i>; <bold>; <marquee>;<big>;<strike>; etc..
+
+	- TAGS SUBSTITUTAS:
+
+		-<p>
+        			<ins>Thasyo Peres Leite</ins><br><!--Sublinha textos-->
+
+       			 <strong>Thasyo Peres Leite</strong><br><!--Textos em negritos-->
+
+       			 <em>Thasyo Peres Leite</em><br><!--Textos em Itálico-->
+
+        			<mark>Thasyo Peres Leite</mark><br><!--Marca Textos-->
+
+       			 <del>Thasyo Peres Leite</del><!--Textos traçejados-->
+
+        			<sub>Texto</sub><!--Textos Subscritos-->
+
+       			<sup>Texto</sup><!--Textos Sobrescritos-->
+
+        			<pre><code>Printf("Hello, World!");</code></pre><!--Formata textos para um estilo de codigo-->
+
+        			<q>Usado para citações!!</q><!--Usa-se TAG para citações-->
+
+        			<blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit quisquam, 
+                    		explicabo vero, nobis neque voluptatem error ratione nostrum eos ex, 
+                  		suscipit modi porro voluptatibus fugiat fugit repellat voluptates qui nisi.
+        			</blockquote>  <!--cita coisas mais longos.-->
+
+        			<p><abbr title="Thasyo Peres">TP</abbr> é lindo demais!!</p><!--Serve para fazer abreviações de Siglas e etc.-->
+        
+
+   		 </p> 
+
+-> CAPÍTULO 09: LISTAS
+
+	-- Geralmente, utilizam-se listas com frequência em Criação de MENUS. --
+
+	-LISTAS ORDENADAS
+
+		- TAG:  <ol> conteudo <ol/>
+		
+		-PARÂMETROS: 
+		
+			- <ol type="1"> : Ordena a lista de forma numerada.
+			- <ol type="A"> : Ordena a lista alfabeticamente de forma MAIUSCULA.
+			- <ol type="a"> : Ordena a lista alfabeticamente de forma MINUSCULA.
+			- <ol type="I"> :  Ordena a lista em algarismo romano de forma MAIUSCULA.
+			- <ol type="i"> : Ordena a lista em algarismo romano de forma MINUSCULA. 
+
+	- LISTAS NÃO ORDENADAS
+	
+		- TAG:  <ul> conteudo <ul/>
+
+		- PARÂMETROS: 
+			
+			- <ul type="disc"> : Classifica os itens da lista com uma bola preta preenchida.
+			- <ul type="circle">: Classifica os itens da lista com uma bola preta não preenchida.
+			- <ul type="square">: Classifica os itens da lista com um quadrado preto preenchido.
+
+	- LISTAS MISTAS
+
+		- Basicamente são listas aninhadas entre si, sejam "OL" ou "UL".
+
+	- LISTAS DEFINIDAS
+
+		- TAGS
+			
+			- <dl> DEFINITION LISTS <dl/> : Define até onde a lista de definição de algo vai.
+			- <dt> DEFINITION TERM <dt/> : Define os termos que serão definidos na lista.
+			- <dd> DEFINITION DESCRIPTION <dd/> : Descrever a termo colocado na lista.
 
 
+-> CAPÍTULO 10: LINKS 
 
+	- Para se fazer a ligação de uma página/site a outra, é necessário utilizar a tag <a>;
 
+	- Dentro da Tag <a>,  temos diversos atributos, dentre eles: 
 
+		- href="<conteúdo>" : coloca-se a URL do site de destino;
+		- hreflang="<idioma>" : permite indicar o idioma principal da página linkada;
+
+	- Para indicar o modo como o site linkado vai abrir, temos as seguintes tags:
+
+		- Target="_blank" : Abre o link em uma nova aba da aba atual;
+		- Target="_self" : Abre o link na mesma aba atual;
+
+		- _blank: é utilizado quando o site linkado não faz parte do site atual.
+		- _self : é utilizado quando o site linkado faz parte do site atual.
+
+	- Para indicar a natureza do site de destino, usamos o seguinte tributo:
+
+		- rel="next": indica que a página que vai ser aberta é a próxima página da página atual.
+		- rel="prev": indica que a página que vai ser aberta é a página anterior da página atual.
+		- rel="external": indica que a página que vai ser aberta é uma página externa da página atual (sem conexão).
+	
+	- Para dazer downloads dos links, é necessário usar os seguintes atributos:
+
+		- download='<nomedoarquivo.extensão>' type='<tipodoarquivo>'
+
+		exemplo: <a href='./arquivos/livro.pdf' type='application/pdf'>Baixe aqui<a/>
+
+		-Media Types mais usados no nosso dia-a-dia:
+
+			- application/zip;
+			- text/html
+			- text/css
+			- text/javascript
+			- video/mp4
+			- video/H264
+			- video/JPEG
+			- audio/aac
+			- audio/mpeg
+			- font/ttf
+			- image/jpeg
+			- image/png
