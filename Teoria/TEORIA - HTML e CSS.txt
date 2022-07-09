@@ -297,3 +297,22 @@ gustavoguanabara.github.io
 			- font/ttf
 			- image/jpeg
 			- image/png
+
+-> CAPÍTULO 11: IMAGENS DINÂMICAS, ÁUDIOS E VÍDEOS
+
+	- AULA 01 E 02: IMAGENS DINÂMICAS/FLEXÍVEIS
+
+		- Para fazer com que uma imagem fique dinâmica dentro de um site, é necessário utilizar uma série de informações dentro de uma Tag, chamada <picture>;
+
+		- Exemplo:
+
+			<picture>
+				<source media="<tamanho que sera batido para fazer a dinamização>"  srcset="novo local de origem da imagem(de outro tamanho)"  type="<media type que a imagem tem>">
+				<img src="<local de origem da imagem" alt="descrição da imagem padrão que será iniciada após a página carregar.">
+			<picture/>
+
+			* O picture pode ter inúmeros sources, desde que atendam a necessidade de sua utilidade.
+
+		- É importante destacar que: os sources devem seguir uma ordem crescente de chamada, nenhum pode ultrapassar o outro.
+
+
