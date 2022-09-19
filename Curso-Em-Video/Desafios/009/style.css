@@ -1,0 +1,18 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #f0f8ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*ESTILIZATION (MENU PRINCIPAL)*/
+h1{
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,377 @@
+CURSO DE HTML E CSS (CURSO EM VIDEO)
+
+github.com/gustavoguanabara 
+
+gustavoguanabara.github.io
+
+-> COMO A INTERNET CHEGA NA MINHA CASA:
+
+	- ARPANET: primeira rede.
+	- NCP: primeiro protocolo criado; serviu para que os computadores de diferentes marcas pudessem se comunicar.
+	- TCP: outro protocolo criado para eliminar o problema do NCP de parar a rede para gerar uma comunicação entres os computadores.
+	- IP: identificação de redes; em conjunto com o TCP criou um conjunto de protocolos chamado de TCP/IP.
+	- INTERNET: foi criada por meio da arpanet para interesses militares; é um conjunto de redes.
+	
+-> A INTERNET ANTIGAMENTE:
+	
+	- ERA FEIONA HAHAHA; TELA PRETA E LETRAS VERDES.	
+	- TIM BERNERS-LEE: criador do " http:// " ; "HTML"; "WWW";  revolucionou a internet e contribui para ela se tornar o que ela é hoje.
+	- MARC ANDREESEN: criou o primeiro navegadopr da web.
+	- WWW: é uma sub-rede dentro da rede 'internet'.
+	- HTTP: ESPECIALIZADO EM PRODUZIR ELEMENTOS EM HYPERTEXT (HTML);
+
+-> COMO FUNCIONA A INTERNET:
+
+	- COMO O COMPUTADOR VÊ OS DADOS: 
+		
+		- REPRESENTAÇÃO DE DADOS: funciona com sinais (0 e 1); são os dígitos binários.
+		
+			- BIT: é um 0 ou um 1;
+			- BYTE: é um conjunto de 8 bites;
+				- exemplo: A = 01000001 (código multibyte);
+			- MB <> Mb
+			     - MB: MegaBytes;
+			     - Mb: MegaBites;
+
+-> O QUE É DOMÍNIO E HSOPEDAGEM:
+	
+	- DOMÍNIO: é  o nome que você dá ao seu site;
+	- HOSPEDAGEM: é o local onde você vai guardar o seu site;
+
+-> URL: localizador de endereço uniforme. Basicamente só serve pra te guiar para um único lugar.
+	EXEMPLO: https://www.github.com/Thasyo
+	
+		- github - DOMÍNIO
+		- .com - TLD
+		- www - SUB-DOMÍNIO DO DOMÍNIO.
+		- /thasyo - CAMINHO
+
+-> CAPÍTULO 03: A DIFERENÇA ENTRE HTML, CSS E JAVASCRIPT
+
+	- HTML e CSS não são linguagens de programação;
+	- HTML: Linguagem de Marcação de Hipertexto;
+	- CSS: Folhas de Estilo em Cascata;
+
+	- HTML: é focada em conteúdo (texto, imagem, listas, tabelas, etc.);
+	- CSS: é focada em design (cores, tamanho, etc.);
+	- JAVASCRIPT:  trabalha as interações em um site (animações, menus, popups, validações); 	
+
+	- CONTEÚDO EM HTML:
+
+		- exemplo:  <h1> exemplo de título </h1>
+
+			   - <h1> => abertura de tag;
+			   - exemplo de título => conteúdo
+			   - <h1/> => fechamento de tag;
+			
+			   <img src="foto.png" alt="exemplo de foto">
+
+			  - <im => abertura da tag;
+			  - src; alt => parâmetros;
+			  - foto.png; exempo de foto => valor;
+
+	- ESTILO EM CSS:
+		
+		- h1 {
+		     font-family: Arial;
+		     font-size: 12pt
+		     color: blue;
+		}	
+
+		h1 => Seletor
+		font-family: Arial => declaração;
+		font-family => propriedade;
+		Arial => valor;
+
+	- ESTRUTURA BÁSICA DE DOCUMENTO HTML:
+
+		<! DOCTYPE html>
+		<html lang="pt-br">
+			<head>
+				<meta charset="UTF-8">
+				<meta name="width=device-width, initial-scale=1.0">
+				<title>Document</title>
+			</head>
+			<body>
+				<h1> Olá Mundo!</h1>
+			</body>
+		</html>
+
+	- ENTENDENDO OS CONCEITOS DE FRONT-END; BACK-END E FULL-STACK:
+
+		- FRONT-END: é o client-side; está muito relacionado com a interface gráfica do projeto. 
+			         Ou seja, é onde se desenvolve a aplicação com a qual o usuário irá interagir diretamente, seja em softwares, sites, aplicativos, etc.
+
+		- BACK-END: é o server-side; 	é a estrutura que possibilita a operação do sistema, enquanto o front-end é responsável pela parte visual, como apresentação, design, linguagens, cores, entre outros.
+			      Mesmo tendo papéis diferentes, essas aplicações estão ligadas intimamente para que os ambientes eletrônicos operem em sincronia.
+
+		- FULL-STACK: é capaz de trabalhar com toda a pilha de desenvolvimento de um projeto. Além de conseguir atuar com o font-end e o back-end, 
+			        esse profissional também pode contribuir em todas as etapas e partes de um sistema, como o servidor e o banco de dados.
+
+- > CAPÍTULO 05: PARÁGRAFOS E QUEBRAS DE LINHAS
+
+	- <P> CONTEUDO </P> : cria paragrafos na pagina.
+	- <br> : pula uma linha na pagina.
+	- &lt; <p> &gt; : esses simbolos permitem colocar caracteres de marcação literalmente na pagina.
+
+	- SIMBOLOS:
+		"IMAGINA UM ESPAÇO EM BRANCO" : &nbsp;
+		® : &reg;
+		© : &copy;
+		™ : &trade;
+		€ : &euro;
+		£ : &pound;
+		¥ : &yen;
+		¢ : &cent;
+		∅ : &empty;
+		∑ : &sum;
+		Δ : &Delta;
+		← : &larr;
+		↑ : &uarr;
+		→ : &rarr;
+		↓ : &darr;
+
+	- EMOJIS:
+		- site: EMOJIPEDIA.COM
+		- para adicionar emojis, é sempre necessario colocar "&#x" e depois colocar o codigo do emoji.
+		- exemplo: &#x1F60E;
+
+-> CAPÍTULO 06: IMAGENS E FAVICONS
+
+	- SITE PARA USAR IMAGENS SEM DIREITOS AUTORAIS
+
+		- PEXEL (o que mais me agradei);
+		- também pode ser usadas imagens pelo google, desde que faça a filtragem necessária;
+	
+	- GIMP: programa usado para manipular imagens.
+
+	- FORMATOS DE IMAGEM PARA WEB:
+
+		- JPEG: criado em 1983,  seu aspecto decisivo é que ele consegue compactar uma imagem;
+		- PNG: criado em 1996, seu aspecto decisivo é que ele consegue transparência e compactação(não tanto quanto o JPEG).
+
+	- IMAGENS:
+
+		- 1200 X 800 => Tamanho razoável para fundo de tela;
+		
+		- 650 x 433 => Tamanho que geralmente usa-se em sites;
+		
+		- 150 X xxx => Geralmente coloca-se em cima no site na lateral;
+
+	- FAVICON:
+
+		- icones favoritos que ficam junto com o titulo da pagina;
+		- SITES DE ICONES FAVORITOS: iconarchive.com; favicon.io;
+
+-> CAPÍTULO 07: HIERÁRQUIA DE TÍTULOS
+
+	- A hierarquia de títulos consiste em 6 niveis. São elas:
+
+		- H1: Titulo principal.
+		- H2: Subtitulo do H1;
+		- H3:  Subtitulo do H2;
+		- H4:  Subtitulo do H3;
+		- H5:  Subtitulo do H4;
+		- H6:  Subtitulo do H5;
+
+	- Nunca negligencie essa hierarquia, pois é ela que deixa a semãntica do seu site organizada e bem feita.
+
+-> CAPÍTULO 08: FORMATAÇÃO DE TEXTOS
+
+	- Semântica: em HTML, diz respeito ao foco que deve ser posto no significado do que na forma.
+
+	- TAGS OBSOLETAS: são as tags que são ultrapassadas e não são recomendadas para uso.
+
+		exemplo: <center>; <font>; <u>; <i>; <bold>; <marquee>;<big>;<strike>; etc..
+
+	- TAGS SUBSTITUTAS:
+
+		-<p>
+        			<ins>Thasyo Peres Leite</ins><br><!--Sublinha textos-->
+
+       			 <strong>Thasyo Peres Leite</strong><br><!--Textos em negritos-->
+
+       			 <em>Thasyo Peres Leite</em><br><!--Textos em Itálico-->
+
+        			<mark>Thasyo Peres Leite</mark><br><!--Marca Textos-->
+
+       			 <del>Thasyo Peres Leite</del><!--Textos traçejados-->
+
+        			<sub>Texto</sub><!--Textos Subscritos-->
+
+       			<sup>Texto</sup><!--Textos Sobrescritos-->
+
+        			<pre><code>Printf("Hello, World!");</code></pre><!--Formata textos para um estilo de codigo-->
+
+        			<q>Usado para citações!!</q><!--Usa-se TAG para citações-->
+
+        			<blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit quisquam, 
+                    		explicabo vero, nobis neque voluptatem error ratione nostrum eos ex, 
+                  		suscipit modi porro voluptatibus fugiat fugit repellat voluptates qui nisi.
+        			</blockquote>  <!--cita coisas mais longos.-->
+
+        			<p><abbr title="Thasyo Peres">TP</abbr> é lindo demais!!</p><!--Serve para fazer abreviações de Siglas e etc.-->
+        
+
+   		 </p> 
+
+-> CAPÍTULO 09: LISTAS
+
+	-- Geralmente, utilizam-se listas com frequência em Criação de MENUS. --
+
+	-LISTAS ORDENADAS
+
+		- TAG:  <ol> conteudo <ol/>
+		
+		-PARÂMETROS: 
+		
+			- <ol type="1"> : Ordena a lista de forma numerada.
+			- <ol type="A"> : Ordena a lista alfabeticamente de forma MAIUSCULA.
+			- <ol type="a"> : Ordena a lista alfabeticamente de forma MINUSCULA.
+			- <ol type="I"> :  Ordena a lista em algarismo romano de forma MAIUSCULA.
+			- <ol type="i"> : Ordena a lista em algarismo romano de forma MINUSCULA. 
+
+	- LISTAS NÃO ORDENADAS
+	
+		- TAG:  <ul> conteudo <ul/>
+
+		- PARÂMETROS: 
+			
+			- <ul type="disc"> : Classifica os itens da lista com uma bola preta preenchida.
+			- <ul type="circle">: Classifica os itens da lista com uma bola preta não preenchida.
+			- <ul type="square">: Classifica os itens da lista com um quadrado preto preenchido.
+
+	- LISTAS MISTAS
+
+		- Basicamente são listas aninhadas entre si, sejam "OL" ou "UL".
+
+	- LISTAS DEFINIDAS
+
+		- TAGS
+			
+			- <dl> DEFINITION LISTS <dl/> : Define até onde a lista de definição de algo vai.
+			- <dt> DEFINITION TERM <dt/> : Define os termos que serão definidos na lista.
+			- <dd> DEFINITION DESCRIPTION <dd/> : Descrever a termo colocado na lista.
+
+
+-> CAPÍTULO 10: LINKS 
+
+	- Para se fazer a ligação de uma página/site a outra, é necessário utilizar a tag <a>;
+
+	- Dentro da Tag <a>,  temos diversos atributos, dentre eles: 
+
+		- href="<conteúdo>" : coloca-se a URL do site de destino;
+		- hreflang="<idioma>" : permite indicar o idioma principal da página linkada;
+
+	- Para indicar o modo como o site linkado vai abrir, temos as seguintes tags:
+
+		- Target="_blank" : Abre o link em uma nova aba da aba atual;
+		- Target="_self" : Abre o link na mesma aba atual;
+
+		- _blank: é utilizado quando o site linkado não faz parte do site atual.
+		- _self : é utilizado quando o site linkado faz parte do site atual.
+
+	- Para indicar a natureza do site de destino, usamos o seguinte tributo:
+
+		- rel="next": indica que a página que vai ser aberta é a próxima página da página atual.
+		- rel="prev": indica que a página que vai ser aberta é a página anterior da página atual.
+		- rel="external": indica que a página que vai ser aberta é uma página externa da página atual (sem conexão).
+	
+	- Para dazer downloads dos links, é necessário usar os seguintes atributos:
+
+		- download='<nomedoarquivo.extensão>' type='<tipodoarquivo>'
+
+		exemplo: <a href='./arquivos/livro.pdf' type='application/pdf'>Baixe aqui<a/>
+
+		-Media Types mais usados no nosso dia-a-dia:
+
+			- application/zip;
+			- text/html
+			- text/css
+			- text/javascript
+			- video/mp4
+			- video/H264
+			- video/JPEG
+			- audio/aac
+			- audio/mpeg
+			- font/ttf
+			- image/jpeg
+			- image/png
+
+-> CAPÍTULO 11: IMAGENS DINÂMICAS, ÁUDIOS E VÍDEOS
+
+	- AULA 01 E 02: IMAGENS DINÂMICAS/FLEXÍVEIS
+
+		- Para fazer com que uma imagem fique dinâmica dentro de um site, é necessário utilizar uma série de informações dentro de uma Tag, chamada <picture>;
+
+		- Exemplo:
+
+			<picture>
+				<source media="<tamanho que sera batido para fazer a dinamização>"  srcset="novo local de origem da imagem(de outro tamanho)"  type="<media type que a imagem tem>">
+				<img src="<local de origem da imagem" alt="descrição da imagem padrão que será iniciada após a página carregar.">
+			<picture/>
+
+			* O picture pode ter inúmeros sources, desde que atendam a necessidade de sua utilidade.
+
+		- É importante destacar que: os sources devem seguir uma ordem crescente de chamada, nenhum pode ultrapassar o outro.
+
+	- AULA 03: ÁUDIOS
+	
+		- Para aplicar áudios no seu site, é necessário colocar algumas informações na tag <audio>;
+
+		- Exemplo:
+
+			-1° forma de aplicação: essa forma proporciona colocar mais de um formato de audio.
+
+			<audio preload="metada" controls autoplay loop>
+				<source src="<local do audio>" type="media type do audio colocado">
+				<source src="<local do audio>" type="media type do audio colocado">
+			<audio/>
+
+			- 2° forma de aplicação: esta forma proporciona colocar apenas um formato de audio.
+
+			<audio src="local do audio" controls autoplay loop><audio/>
+
+	- AULA 04 E 05: VÍDEOS EM HOSPEDAGEM PRÓPRIA
+
+		- Utilizamos a tag <video> para colocar videos nos sites;
+		- Dentro da tag <video>, temos: width, poster e controls
+		- WIDTH: modifica o tamanho do video na hospedagem do site;
+		- POSTER: coloca uma imagem como thumbnail no vídeo;
+
+		- Exemplo:
+
+			- <video width="largura do video" poster="thumbnail do video" controls autoplay>
+	
+				<source src="local do video.extensão" type="media type do video importado">
+				<source src="local do video.extensão" type="media type do video importado">
+				<source src="local do video.extensão" type="media type do video importado">
+				<p>Infelizmente o video não é compatível com o seu navegador.</p>
+			</video>
+
+	
+		- Navegadores e seus arquivos de videos compatíveis:
+
+			- Google Chrome: .mp4; .m4v; .ogv; .webm
+			- Microsoft Edge: .mp4; .m4v
+			- Apple Safari: .mp4; .m4v
+			- Mozilla Firefox: .webm; .ogv
+			- Opera: .webm; .ogv
+
+		- CUIDADO!! Hospedar videos no seu site de forma local, no seu próprio servidor, é suicídio. Pois, você vai gastar muito dinheiro para manter.
+
+	- AULA 06: COLOCANDO VIDEOS EXTERNAMENTE NO SEU SITE
+
+		- Pelo YouTube;
+
+     			 - Pesquise no YouTube o vídeo desejado;
+     			 - Aperte na opção "compartilhar";
+      			- Clique na opção "incorporar";
+     			- Copie o código HTML;
+      			- cole no seu html de forma desejada;
+     			- Desvantagem: Os vídeos são públicos, ou seja, não é possível privatizar o acesso.
+
+   		- Pelo Vimeo;
+
+      			- mesmo esquema do YouTube, só que ele pode privatizar os vídeos disponibilizados;
+      			- Desvantagem: Lentidão no processo; mediante a gama de acesso e também da alta qualidade doa vídeos;

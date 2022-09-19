@@ -1,0 +1,63 @@
+HTML - UDEMY
+
+-> TABELAS
+
+	- <table> Conteudo </table> : Essa TAG vai ser responsável por compor a tabela completamente, tipo o header do cabeçalho.
+	- <tr> : responsável por representar as linhas da tabela.
+	- <td> : responsável por representar os dados dentro das linhas ou colunas da tabela (é colocado dentro da TAG <tr>).
+	- <th> : responsável por representar as colunas da tabela (é colocado dentro da TAG <tr>).
+
+	- O atributo "colspan" é colocado na tag "TD", e é usado para fazer que um certo dado ocupe mais de uma coluna na tabela.
+	- O atributo "rowspan" é colocado na tag "TD", e é usdo para fazer que um certo dado ocupe mais de uma linha na tabela.
+
+-> FORMULÁRIOS
+
+	- <form> <form/> : Tag utilizada para compor todos os componentes do formulário que vai ser criado.
+	-  <input/> : Tag utilizada para adicionar informações/dados no form. Essa tag tem varios tipos. São eles:
+
+		- Type=" text " : Input usado para adicionar textos normais. Ex: Nomes, Logins e etc.
+		- Type="password" : Input usado para adicionar senhas. Ex: ******
+		- Type="button" value="Nome do botão":  Input usado para adicionar botões.
+		- Type="submit" value="Nome do submit": Input usado para fazer reload e envio de forms.
+		- Type="radio" name="nome-do-radio": Input usado para adicionar bolinhas de Marcação. A parte do "name" serve para o usuário não marcar dois de uma vez.
+		- Type="checkbox": Input usado para adicionar quadradinhos de marcação.
+
+	- <select>
+           		 <option value="RJ">RJ</option>
+            		<option value="SP">SP</option>
+            		<option value="MG">MG</option>
+            		<option value="PB">PB</option>
+        	</select> : A TAG "SELECT" SERVE BASICAMENTE COMO UM SELETOR, ATRAVÉS DE UMA "LISTA".
+
+	- <textarea name="--" id="--" cols="--" rows="--"></textarea> : Essa Tag serve para deixar um campo de text maior que o "text" padrão.
+
+CSS - UDEMY
+
+-> BORDAS
+
+	- Existem vários tipos de bordas. São eles:
+
+		- dotted:  Define uma borda pontilhada
+		- dashed:  Define uma borda tracejada
+		- solid:  Define uma borda sólida
+		- double: Define uma borda dupla
+		- groove: Define uma borda ranhurada 3D. O efeito depende do valor da cor da borda
+		- ridge: Define uma borda 3D estriada. O efeito depende do valor da cor da borda
+		- inset: Define uma borda de inserção 3D. O efeito depende do valor da cor da borda
+		- outset: Define uma borda inicial 3D. O efeito depende do valor da cor da borda
+		- none: Não define borda
+		- hidden: Define uma borda oculta
+
+-> FONTES E CORES
+
+	- CORES: existe um site que você pode escolher a seu bel prazer a tonalidade das cores que você deseja usar. O nome do site é: https://html-color-codes.info/Codigos-de-Cores-HTML/
+
+	- FONTES:
+
+		- Em CSS existem cinco famílias de fontes genéricas:
+
+			As fontes com serifa têm um pequeno traço nas bordas de cada letra. Eles criam uma sensação de formalidade e elegância.
+			As fontes sem serifa têm linhas limpas (sem pequenos traços anexados). Eles criam um visual moderno e minimalista.
+			Fontes monoespaçadas - aqui todas as letras têm a mesma largura fixa. Eles criam uma aparência mecânica. 
+			As fontes cursivas imitam a caligrafia humana.
+			Fontes de fantasia são fontes decorativas/lúdicas.

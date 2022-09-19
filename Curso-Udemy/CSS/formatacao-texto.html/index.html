@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+
+    <style>
+
+        h2{
+            font-size: 3em;
+            color: rgb(105, 30, 174);
+        }
+
+        /*
+
+        TAMANHO DA FONTE
+        
+        1em = 16px = 100%
+
+        SÃO FORMAS DE DECLARAR O TAMANHO DA FONTE.
+
+        */
+
+        .size p:nth-child(1){
+            font-size: 32px;
+            color: red;
+        }
+
+        .size p:nth-child(2){
+            font-size: 2em;
+            color: blueviolet;
+        }
+
+        .size p:nth-child(3){
+            font-size: 200%;
+        }
+
+        /*
+        
+        FONTE DE NEGRITO
+
+        PODE IR DE 100 ATÉ 900
+
+        900 - MÁXIMO DE NEGRITO QUE UMA FONTE PODE TER.
+        100 - MÍNIMO DE NEGRITO QUE UMA FONTE PODE TER.
+
+        */
+
+        .weight p:nth-child(1){
+            font-size: 2em;
+            font-weight: 900;
+        }
+
+        .weight p:nth-child(2){
+            font-size: 2em;
+            font-weight: 550;
+            color: chocolate;
+        }
+
+        .weight p:nth-child(3){
+            font-size: 2em;
+            font-weight: 700;
+            color: aqua;
+        }
+
+        /*
+        
+        ESTILOS DA FONTE
+
+
+        
+        */
+
+        .style p:nth-child(1){
+            font-size: 2em;
+            font-style: italic;
+            color: #22a97c;
+            font-weight: 600;
+        }
+
+        .style p:nth-child(2){
+            font-size: 2em;
+            font-weight: 550;
+            color: chocolate;
+            font-style: oblique;
+        }
+
+        /*
+        
+        TEXT-DECORATION
+        
+        */
+
+        .decoration p:nth-child(1){
+            font-size: 2em;
+            text-decoration: underline;
+            color: #000000;
+        }
+
+        .decoration p:nth-child(2){
+            font-size: 2em;
+            text-decoration: overline;
+            color: red;
+        }
+
+        .decoration p:nth-child(3){
+            font-size: 2em;
+            color: rgb(235, 126, 226);
+            text-decoration: line-through;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <h2>Formatação de Textos</h2>
+
+
+    <div class="size">
+        <p>Texto 1</p>
+        <p>Texto 2</p>
+        <p>Texto 3</p>
+    </div>
+
+    <h2>NEGRITO NA FONTE</h2>
+
+
+    <div class="weight">
+        <p>Texto 1</p>
+        <p>Texto 2</p>
+        <p>Texto 3</p>
+    </div>
+
+    <h2>ESTILO DA FONTE</h2>
+
+    <div class="style">
+        <p>Texto 1</p>
+        <p>Texto 2</p>
+    </div>
+
+    <h2>DECORANDO TEXTOS</h2>
+
+    <div class="decoration">
+        <p>Texto 1</p>
+        <p>Texto 2</p>
+        <p>Texto 3</p>
+    </div>
+
+</body>
+</html>

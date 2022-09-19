@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bordas.css">
+    <title>Bordas</title>
+
+    <style>
+
+        div, h1{
+            text-align: center;
+            padding: 20px;
+            text-transform: uppercase;
+            font-weight: 900;
+            font-size: larger;
+        }
+
+        .solid {
+            border: 10px solid red; /*A ordem dos atributos dentro do border não importa, vai funcionar de qualquer forma.*/
+        }
+
+        .dotted{
+            border: 10px dotted red;
+        }
+
+        .dashed{
+            border: 10px dashed red;
+        }
+
+        .double{
+            border: 10px double red;
+        }
+
+        .groove{
+            border: 10px groove red;
+        }
+
+        .ridge{
+            border: 10px ridge red; /*é o groove ao contrário, com as cores trocadas.*/
+        }
+
+        .inset{ 
+            /*Essa é a forma de declarar uma borda de maneira mais específica.*/
+            border-width: 15px 8px;
+            border-color: blue greenyellow;
+            border-style: inset;
+        }
+
+        .outset{
+            border-width: 15px 8px;
+            border-color: blue greenyellow;
+            border-style: inset;
+        }
+
+        .none{
+            border: 10px none red; /*Não nenhuma borda.*/
+        }
+
+        .hidden{
+            border: 10px hidden red;
+        }
+
+    </style>
+</head>
+<body>
+
+        <h1>BORDAS</h1>
+
+        <div class="solid">solid</div>
+        <br>
+        <div class="dotted">dotted</div>
+        <br>
+        <div class="dashed">dashed</div>
+        <br>
+        <div class="double">double</div>
+        <br>
+        <div class="groove">groove</div>
+        <br>
+        <div class="ridge">ridge</div>
+        <br>
+        <div class="inset">inset</div>
+        <br>
+        <div class="outset">outset</div>
+        <br>
+        <div class="none">none</div>
+        <br>
+        <div class="hidden">hidden</div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+
+    <style>
+
+        body{
+            background-color: #61bd8c;
+        }
+
+        #conteudo-principal{
+            background: #ffff;
+            padding: 10px;
+            width: 600px;
+            height: 900px;
+            margin: 30px auto; /* "auto" centraliza as tags que não tem essência de texto.*/
+            margin-top: 70px;
+            position: relative; /*Desabilite e Habilite essa funcionalidade para entender melhor a position: absolute;*/
+        }
+
+        .caixa{
+            background: #1e6f44;
+            width: 100px;
+            height: 100px;
+            color: #ffff;
+        }
+
+        #relative{
+            /*Move o elemento relativo ao posicionamento original dele.*/
+            position: relative;
+            left: -20px;
+            top: 0;
+            width: 645px;
+        }
+
+        #absolute{
+            /* Com ele você pode posicionar qualquer elemento de acordo com o elemento pai que tenha um position diferente de static.*/
+            position: absolute;
+            bottom: 0;
+            right: 35px;
+        }
+
+        #fixed{
+            /*irá fixar a posição do elemento na coordenada que você definir. 
+            A medida que a página é rolada, o elemento continua fixo na posição que você definiu e o conteúdo da página rola normalmente. 
+            Geralmente é usado para fixar elementos como cabeçalhos ou sidebars.*/
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background: #727272;
+            color: #f6ff00;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div id="conteudo-principal">
+        <h1>Posicionamento</h1>
+
+        <h4>Relative</h4>
+        <div class="caixa" id="relative">Relative</div>
+        <h4>Absolute</h4>
+        <div class="caixa" id="absolute">Absolute</div>
+        <h4>Fixed</h4>
+        <div class="caixa" id="fixed">Fixed</div>
+    </div>
+
+</body>
+</html>
