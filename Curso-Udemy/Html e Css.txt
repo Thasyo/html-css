@@ -54,7 +54,7 @@ CSS - UDEMY
 
 	- FONTES:
 
-		- Em CSS existem cinco famílias de fontes genéricas:
+		-Em CSS existem cinco famílias de fontes genéricas:
 
 			As fontes com serifa têm um pequeno traço nas bordas de cada letra. Eles criam uma sensação de formalidade e elegância.
 			As fontes sem serifa têm linhas limpas (sem pequenos traços anexados). Eles criam um visual moderno e minimalista.
