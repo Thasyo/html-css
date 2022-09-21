@@ -31,6 +31,16 @@ HTML - UDEMY
 
 	- <textarea name="--" id="--" cols="--" rows="--"></textarea> : Essa Tag serve para deixar um campo de text maior que o "text" padrão.
 
+-> NOVAS TAGS
+
+	- header: responsável por compor o cabeçalho do site.
+	- nav: geralmente usada para ser o recipiente de uma barra de navegação.
+	- footer: responsável por compor o rodapé do site.
+	- article: responsável por compor um artigo dentro do site.
+	- section: parecido com a DIV, serve para separar os conteudos da página.
+	- time: serve pra compor datas, horario e etc.
+	- aside: serve para documentar assuntos que não estão necessariamente dentro do contexto do assutno principal.
+
 CSS - UDEMY
 
 -> BORDAS
