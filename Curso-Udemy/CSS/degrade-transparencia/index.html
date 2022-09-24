@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degradê e Transparência</title>
+
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+        }
+
+        .box-1{
+            width: 300px;
+            height: 200px;
+            background: url(https://i0.wp.com/cdn.clickwallpapers.net/images/clickwallpapers-naruto-wallpaper-in-4k-3840x2160-img2.png?w=958&ssl=1);
+            background-position: top center;
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 20px 30px;
+            margin: 5px;
+        }
+
+        .box-1 h1{
+            background-color: rgba(128, 128, 128, 0.5);
+            border: 1px solid #ffffff;
+            width: 100%;
+        }
+
+        .box-2{
+            width: 300px;
+            height: 200px;
+            background: linear-gradient(90deg, gray, blue);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 20px 30px;
+            margin: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box-1">
+        <h1>Caixa 1</h1>
+        <p>Esta é uma caixa ou algo do tipo que vai servir de cobaia para eu aprender a como usar o degradê</p>
+    </div>
+
+    <div class="box-2">
+        <h1>Caixa 2</h1>
+        <p>Esta é uma caixa ou algo do tipo que vai servir de cobaia para eu aprender a como usar transparência.</p>
+    </div>
+</body>
+</html>
