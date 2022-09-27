@@ -1,0 +1,35 @@
+/*Animação em css*/
+
+.box-animation{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+
+    /*animation-name: box-animation; /*Você anota o nome da animation que você criou.
+    animation-duration: 1s; Você coloca o tempo de duração que você quer que a animation dure.
+    animation-delay: 1s; Você coloca o tempo que a animação vai demorar para iniciar.
+    animation-iteration-count: 2; Você coloca quantas você quer que a animation repita.
+    animation-direction: alternate; Formas de você alternar a direção da animation.
+    */
+
+    animation: box-animation 1s 1s 2 alternate; /*Também podemos fazer dessa forma!! Basicamente todas as propriedades juntos em uma só linha de código.*/
+}
+
+/*Criando animação*/
+@keyframes box-animation{
+
+    0%{
+        background-color: red;
+        border-radius: 0%;
+        top: 0px;
+        left: 0px;
+    }   
+
+    100%{
+        background-color: blueviolet;
+        border-radius: 50%;
+        top: 250px;
+        left: 250px;
+    }
+}
