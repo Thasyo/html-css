@@ -71,3 +71,11 @@ CSS - UDEMY
 			Fontes monoespaçadas - aqui todas as letras têm a mesma largura fixa. Eles criam uma aparência mecânica. 
 			As fontes cursivas imitam a caligrafia humana.
 			Fontes de fantasia são fontes decorativas/lúdicas.
+
+-> CSS GRID
+
+	- Um recurdo do CSS que permite desenvolver layouts em grid;
+	- É um valor da propriedade display;
+	- Trabalhos com um container que contém itens;
+	- O container controla a disposição dos itens, mas os itens também podem alterar o seu posicionamento;
+	- Podemos inserir um espaçamento entre as áreas com o recurso de "gap";
